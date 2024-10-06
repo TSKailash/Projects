@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To-do List</title>
+</head>
+<body class="grid place-content-center h-screen bg-gradient-to-r from-cyan-500 to-blue-500">
+    <div class="bg-white rounded-lg w-[400px] min-h-[200px]">
+        <h1 class="p-7 flex text-[26px] gap-3 font-mono">To-do List <img class="h-10" src="images/icon.png"></h1>
+        <div class="ml-6 flex justify-between mr-[50px] rounded-[30px] bg-gray-300">
+            <input class="px-4 py-2 w-[270px] bg-gray-300 rounded-[30px] outline-none" type="text" id="input-box" placeholder="Add your tasks">
+            <button onclick="AddTask()" class="px-7 py-3 bg-orange-400 rounded-[30px]">Add</button>
+        </div>
+        <ul class="px-8 mt-10 mb-7" id="list-container">
+            
+        </ul>
+    </div>
+<script src="script.js"></script>       
+</body>
+</html>

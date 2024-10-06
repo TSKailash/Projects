@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+span:hover{
+    background-color: #efeef0;
+}
