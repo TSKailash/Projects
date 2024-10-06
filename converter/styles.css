@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    min-height: 600px;
+    align-items: center;
+    justify-content: center;
+    background-image: url(image22.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+.container h1{
+    color: #e98527;
+    font-weight: 1000;
+}
+
+.container .para{
+    color: rgba(255, 254, 250, 0.733);
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+
+.container .choice-pick{
+    color: #e98527;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.container .list{
+    margin-top: 30px;
+}
+
+.container .list .btn{
+    padding: 10px 20px 10px 20px;
+    width: 250px;
+    margin-bottom: 40px;
+    background-color: #e0b453;
+    opacity: 1;
+    border-radius: 10px;
+    
+}
+
+.container .list .btn .name{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+}
+
