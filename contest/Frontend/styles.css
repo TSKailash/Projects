@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: "border-box";
+    background-color: #c3dbf8;
+}
+
+.unlist{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    float: right;
+    justify-content: center;
+    align-items: center;
+    border-bottom: black 2px solid;
+    background-color: #008bb5;
+}
+
+.unlist li{
+    list-style: none;
+    background-color: #008bb5;
+}
+
+.unlist li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(31, 29, 29);
+    font-family: 'poppins', sans-serif  ;
+    padding: 10px 20px;
+    transition: 0.4s;
+    border-radius: 20px;
+    background-color: #008bb5;
+}
+
+.unlist li a:hover{
+    background-color: white;
+}
+
+.hero{
+    padding-top: 100px;
+}
+
+.hero h1{
+    font-family: 'poppins', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: black;
+}
+
+.hero_img{
+    border: 5px solid white;
+    border-radius: 20px;
+    padding-top: 50px;
+    margin-top: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero_img .sec1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hero_img .sec1 .ig1{
+    width: 480px;
+    height: 240px;
+    cursor: pointer;
+}
+
+.hero_img .sec1 .ig2{
+    width: 480px;
+    cursor: pointer;
+    height: 240px;
+}
+
+.hero_img .sec2 img{
+    width: 500px;
+    cursor: pointer;
+}
+
+.divbtn{
+    display: flex;
+    justify-content: center;
+}
+
+.shopbtn {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #00ABE4;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    width: 300px;
+    font-size: 26px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1), 0px 6px 20px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.shopbtn a{
+    background-color: #00ABE4;
+    text-decoration: none;
+    color: white;
+    
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.shopbtn:hover a{
+    background-color: #008bb5;
+}
+
+.shopbtn:hover {
+    background-color: #008bb5;
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2), 0px 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+.shopbtn:active {
+    transform: scale(0.98);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15), 0px 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.feattxt{
+    margin-left: 80px;
+    margin-bottom: 50px;
+    font-family: 'poppins', sans-serif;
+    text-decoration: underline;
+}
+
+.feat{
+    display: grid;
+    margin-left: 80px;
+    grid-template-columns: 570px 570px 570px;
+    row-gap: 40px;
+}
+
+.feat img{
+    cursor: pointer;
+    transition: .4s;
+    width: 230px;
+    height: 300px;
+}
+
+.feat img:hover{
+    transform: scale(1.1);
+}
